@@ -1,4 +1,4 @@
-# Node 10 Latest
+# Node 14 Latest
 > Node 14 LTS lightweight carbon-alpine. \
 > Base image used for spinning up node based apps images/containers
 
