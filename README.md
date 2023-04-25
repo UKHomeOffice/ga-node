@@ -1,5 +1,5 @@
-# Node 14 Latest
-> Node 14 LTS lightweight carbon-alpine. \
+# Node 16 Latest
+> Node 16 LTS lightweight Gallium alpine. \
 > Base image used for spinning up node based apps images/containers
 
 ## Installing & getting started
