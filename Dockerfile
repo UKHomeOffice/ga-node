@@ -1,4 +1,4 @@
-FROM node:14-alpine3.17
+FROM node:16-alpine3.18
 
 RUN apk update
 RUN apk add font-noto
