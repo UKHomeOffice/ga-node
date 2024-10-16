@@ -1,9 +1,12 @@
-FROM node:14-alpine3.17
+FROM node:16-alpine3.18
 
 RUN apk update
 RUN apk add font-noto
 RUN apk add --upgrade --no-cache freetype \
-    libcrypto1.1 \
-    libssl1.1 \
+    libcrypto3 \
+    libssl3 \
     musl \
-    musl-utils
+    musl-utils \
+    busybox \
+    busybox-binsh \
+    ssl_client 
